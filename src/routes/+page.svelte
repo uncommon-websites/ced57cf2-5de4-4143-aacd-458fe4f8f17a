@@ -10,12 +10,30 @@
 </script>
 
 <Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
+	title="Draft legal documents 10x faster with AI precision"
+	subtitle="Transform your practice with instant legal document drafting that combines AI code completion with comprehensive legal precedent databases. Spend 30% more time on high-value legal strategy, not repetitive document creation."
+	imageSrc="/generated/image-a-professional-lawyer-sits-confidently-a.webp"
+	centered={false}
+	callsToAction={[
+		{
+			href: "#contact",
+			label: "Start your free trial"
+		},
+		{
+			href: "#features",
+			label: "See how it works"
+		}
+	]}
 />
-<LogoScroller label="" generating />
+<LogoScroller 
+	label="Trusted by legal professionals"
+	logoUrls={[
+		'https://cdn.brandfetch.io/skadden.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/kirkland.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/cooley.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/goodwinlaw.com/w/400/h/400/logo'
+	]}
+/>
 
 <Summary
 	generating
