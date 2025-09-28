@@ -93,5 +93,22 @@
 		}
 	]}
 />
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction 
+	title="Stop losing billable hours to document drafting"
+	subtitle="Join 5,000+ legal professionals saving 30% more time"
+	description="While you're manually drafting contracts, your competitors are handling 30% more clients with AI-powered document creation. Transform repetitive legal writing into strategic advantage and reclaim your time for high-value legal work that builds your practice."
+	imageSrc="/generated/image-a-confident-lawyer-standing-in-a-bright-.webp"
+	callsToAction={[
+		{
+			href: "#contact",
+			label: "Start free trial today",
+			variant: "primary"
+		},
+		{
+			href: "#features", 
+			label: "See live demo",
+			variant: "secondary"
+		}
+	]}
+/>
