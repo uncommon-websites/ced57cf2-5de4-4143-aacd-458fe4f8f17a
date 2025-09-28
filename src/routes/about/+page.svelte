@@ -11,94 +11,45 @@
 	// Constants
 	const values = [
 		{
-			title: "Innovation",
-			description: "Constantly challenging the status quo to create better solutions."
+			title: "Precision",
+			description: "Every line of code and legal precedent is meticulously crafted to ensure accuracy in document drafting."
 		},
 		{
-			title: "Integrity",
-			description: "Building trust through transparent actions and honest communication."
+			title: "Efficiency",
+			description: "We help lawyers focus on high-value legal strategy instead of repetitive document creation."
 		},
 		{
-			title: "Impact",
-			description: "Measuring our success by the positive change we create for our clients."
+			title: "Excellence",
+			description: "Combining deep legal domain expertise with cutting-edge AI technology to deliver superior results."
 		}
 	];
 </script>
 
 <SecondaryHero
-	generating
-	title="Solving world hunger"
-	subtitle="one step at a time"
+	title="Transforming legal document drafting"
+	subtitle="with AI-powered precision"
 	imageSrc="https://www.unc.mn/image-placeholder.svg"
 />
 
 <!-- Story Section -->
 <Story
-	generating
 	paragraphs={[
-		"We started in 2018 with a simple goal: make helpful tech that people actually need. While many chase profits, we chose to do things differently.",
-		"Beyond making good products, we care about doing the right thing, being kind to our planet, and making sure everyone can use what we build. That's our compass.",
-		"From day one, we've asked ourselves: 'Does this actually help people?' This question gets us through tough calls and shapes who we are. We're playing the long game here.",
-		"We think about how our work affects real people's lives. We build tech that brings people together, keeps your information safe, and treats everyone fairly. When we stick to these basics, good things happen."
+		"We recognized that legal professionals spend 60% of their billable hours on repetitive document creation instead of high-value legal strategy. This inefficiency costs the industry billions while limiting lawyers' potential to serve more clients.",
+		"Our mission is to transform legal document drafting by combining AI code completion with comprehensive legal precedent databases. We deliver instant document generation that maintains legal accuracy and precedent compliance.",
+		"Starting with solo practitioners and small law firms, we're building tools that enable 30% more billable hours through faster, more efficient document creation. Every feature we develop focuses on reducing administrative burden while enhancing legal precision.",
+		"We believe technology should amplify legal expertise, not replace it. By automating routine drafting tasks, we free legal professionals to focus on strategic counsel and client relationships where they create the most value."
 	]}
 />
 
 <!-- Our Culture Section -->
-<Culture {values} generating />
+<Culture {values} />
 
-<!-- StakeholderGrid Section -->
-<StakeholderGrid
-	generating
-	stakeholderType="team"
-	title="Our team."
-	subtitle="Your partners in innovation."
-	stakeholders={[
-		{
-			name: "Alex Morgan",
-			position: "Founder & CEO",
-			bio: "Started the company with a vision to transform the industry through innovative solutions.",
-			image: "https://www.unc.mn/image-placeholder.svg"
-		},
-		{
-			name: "Jamie Chen",
-			position: "Chief Design Officer",
-			bio: "Award-winning designer with a passion for creating intuitive and beautiful experiences.",
-			image: "https://www.unc.mn/image-placeholder.svg"
-		},
-		{
-			name: "Taylor Wright",
-			position: "Head of Engineering",
-			bio: "Technology enthusiast focused on building scalable systems that make a difference.",
-			image: "https://www.unc.mn/image-placeholder.svg"
-		}
-	]}
-/>
-
-<StakeholderGrid
-	generating
-	stakeholderType="investor"
-	title="Backed by the best."
-	subtitle="Point Nine, TSIC and others"
-	stakeholders={[
-		{
-			name: "Point Nine Capital",
-			image: "https://cdn.brandfetch.io/pointnine.com/w/400/h/400/logo?c=1id_elLz2Bd5Ej-dWo7"
-		},
-		{
-			name: "TSIC Ventures",
-			image: "https://cdn.brandfetch.io/tiny.vc/w/400/h/400/logo?c=1a2b3c4d5e"
-		},
-		{
-			name: "Sequoia Capital",
-			image: "https://cdn.brandfetch.io/sequoiacap.com/w/400/h/400/logo"
-		}
-	]}
-/>
+<!-- Team and Investors sections removed - no founder information available -->
 
 <!-- CTA Section -->
 <CallToAction
-	generating
-	title="Ready to collaborate?"
-	subtitle="Let's create something amazing"
-	description="Join the companies already leveraging our expertise to transform their digital presence and achieve their business goals."
+	title="Ready to transform your practice?"
+	subtitle="Draft documents 3x faster"
+	description="Join the legal professionals already using Cursor to handle more clients by spending less time on repetitive document creation and more time on high-value legal strategy."
+	imageSrc="/generated/image-a-professional-lawyer-seated-at-a-desk-i.webp"
 />
