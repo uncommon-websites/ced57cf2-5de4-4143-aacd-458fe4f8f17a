@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"icon":{"desktop":{"regularIconTransformation":{"type":"none"},"darkIconType":"none"},"touch":{"transformation":{"type":"none"},"appTitle":"nomica"},"webAppManifest":{"transformation":{"type":"none"},"name":"nomica","shortName":"nomica"}},"path":"/"}
+=======
+{"icon":{"desktop":{"regularIconTransformation":{"type":"none"},"darkIconType":"none"},"touch":{"transformation":{"type":"none"},"appTitle":"brifli"},"webAppManifest":{"transformation":{"type":"none"},"name":"brifli","shortName":"brifli"}},"path":"/"}
+>>>>>>> b6844afaf81b012f35594671a1b071bd40c23762
