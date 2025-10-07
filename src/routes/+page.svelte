@@ -10,12 +10,20 @@
 </script>
 
 <Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
+	title="Draft legal documents in seconds, not hours"
+	subtitle="AI-powered legal drafting with real-time citation verification that embeds directly into your workflow."
+	imageSrc="/generated/image-a-professional-lawyer-exudes-quiet-confi.webp"
+	centered={false}
 />
-<LogoScroller label="" generating />
+<LogoScroller
+	label="Trusted by innovative law firms"
+	logoUrls={[
+		'https://cdn.brandfetch.io/cooley.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/wsgr.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/orrick.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/lw.com/w/400/h/400/logo'
+	]}
+/>
 
 <Summary
 	generating
