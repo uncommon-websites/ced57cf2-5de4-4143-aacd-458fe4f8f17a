@@ -96,5 +96,22 @@
 		}
 	]}
 />
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction
+	title="Start drafting with confidence"
+	subtitle="Every clause backed by verifiable sources"
+	description="Join the lawyers who've already transformed their practice. See how Nomica eliminates AI hallucination risk while saving 15+ hours per week on contract work. Your first document takes minutes to generate, not hours to draft."
+	imageSrc="/generated/image-a-confident-lawyer-elegantly-dressed-in-.webp"
+	callsToAction={[
+		{
+			href: "/get-started",
+			label: "Start free trial",
+			variant: "primary"
+		},
+		{
+			href: "/contact",
+			label: "Book a demo",
+			variant: "secondary"
+		}
+	]}
+/>
