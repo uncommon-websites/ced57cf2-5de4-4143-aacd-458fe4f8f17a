@@ -32,54 +32,67 @@
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Priya Narayan",
+			position: "Managing Partner",
+			company: "Narayan & Associates",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"Nomica cut our contract drafting time from 4 hours to 45 minutes. The real-time citation verification eliminated my biggest fear around AI hallucinations, and now my small firm competes with big firms on turnaround time.",
+			image: "/generated/image-confident-asian-female-lawyer-in-a-sophi.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Marcus Washington",
+			position: "Solo Practitioner",
+			company: "Washington Law Group",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"I was drowning in repetitive NDA work until Nomica. Now I draft NDAs in 20 minutes instead of 2 hours, saving me 15 hours every week. That's $7,500 in recovered billable time monthly, and the citation feature gives me confidence every clause is defensible.",
+			image: "/generated/image-professional-black-male-attorney-in-a-pr.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Elena Rodriguez",
+			position: "Partner",
+			company: "Rodriguez Legal Services",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"Nomica transformed our 6-attorney firm from constantly behind to consistently ahead of deadlines. We reduced malpractice risk with verified citations on every document, and increased our client capacity by 40% without adding headcount.",
+			image: "/generated/image-confident-hispanic-female-lawyer-in-a-st.webp"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="Built for legal precision"
+	subtitle="AI-powered drafting that understands the stakes of your work"
 	features={[
 		{
-			title: "Streamlined Workflows",
+			title: "Real-time citation verification",
 			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+				"Every generated clause shows exact source documents, eliminating the fear of AI hallucinations. Draft with confidence knowing each provision is backed by verifiable legal authority."
 		},
 		{
-			title: "Data Analysis",
+			title: "Embedded in your workflow",
 			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+				"Works directly within the tools you already use, not as another platform to learn. Nomica integrates seamlessly into your daily practice without disrupting established processes."
 		},
 		{
-			title: "Secure Collaboration",
+			title: "Legal-specific intelligence",
 			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+				"Unlike generic AI tools, Nomica understands jurisdiction-specific requirements, court rules, and compliance standards. Our models are trained exclusively on legal content to ensure accuracy that matters."
+		},
+		{
+			title: "Instant document generation",
+			description:
+				"Transform hours of drafting into seconds while maintaining your firm's style and precedents. Generate complete contracts, motions, and agreements that require minimal review."
+		},
+		{
+			title: "Contract intelligence",
+			description:
+				"Analyze agreements in seconds to identify risks, missing clauses, and non-standard terms. Surface critical issues before they become problems."
+		},
+		{
+			title: "Secure by design",
+			description:
+				"Attorney-client privilege protection with enterprise-grade encryption and zero data retention. Your client information never trains our models or leaves your control."
 		}
 	]}
 />
